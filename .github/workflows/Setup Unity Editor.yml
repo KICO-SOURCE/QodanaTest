@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        unity-version: [2022.3.19f]
+        unity-version: [2022.3.19f1]
     steps:
     - run: echo -n -e "HELLO\n !\n World!" > text.txt
 
